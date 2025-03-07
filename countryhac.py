@@ -3,13 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import dendrogram
 
-'''LLM Usage Citation:
-Prompt (OpenAI o1): I am working on an assignment for heirarchical agglomeratiev clustreing. 
-I have attached the write up and my existing code hw4.py help me complete the hac(features) function. I am unable to 
- undesrtand how I can build up a data structurse for my clusters as they come up. What approahc can 
- I use, and give me some examples in this context?
-'''
-
 def load_data(filepath):
     toReturn = []
     with open (filepath, 'r') as csvfile:
